@@ -5,6 +5,7 @@ public class User {
     private Integer age;
     private String email;
     private String cat;
+    private String dog;
 
     @Override
     public String toString() {
@@ -13,6 +14,14 @@ public class User {
                 ", age=" + age +
                 ", email='" + email + '\'' +
                 '}';
+    }
+
+    public String getDog() {
+        return dog;
+    }
+
+    public void setDog(String dog) {
+        this.dog = dog;
     }
 
     public String getCat() {
